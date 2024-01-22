@@ -1,0 +1,116 @@
+@font-face {
+    font-family: 'MyFont';
+    src: url('fonts/JMH Typewriter dry.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'title';
+    src: url('fonts/GrandSpace.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+	transition: ease 0.2s;
+}
+body {
+	margin:0;
+	padding:0;
+	font-family: MyFont;
+	width:100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+	overflow-x: hidden;
+}
+.home {
+	background-image: url('backgrounds/main.png');
+}
+.cuba {
+	background-image: url('backgrounds/cuba.png');
+}
+.dr {
+	background-image: url('backgrounds/dr.png');
+}
+.chile {
+	background-image: url('backgrounds/chile.png');
+}
+.argentina {
+	background-image: url('backgrounds/arg.png');
+}
+header {
+	color:white;
+	margin:0;
+	padding:3vh;
+	text-align:center;
+	width:100%;
+	top:7%;
+}
+header:hover {
+	background:rgba(0,0,0,0.2);
+}
+
+.nav {
+	font-family: "Brush Script MT";
+	position:absolute;
+	transform: translate(-50%, -50%);
+	font-size:2vmax;
+	top:4%;
+	left:12vw;
+	padding:0.5vw;
+}
+
+
+.navlink {
+	color:white;
+	text-decoration:none;
+	margin:0;
+	padding:0.5vw;
+	color:white;
+	display:flexbox;
+}
+
+.navlink:hover {
+	color:lightyellow;
+	background:rgba(0,0,0,0.2);
+	border-radius:10px;
+}
+
+main {
+	color:lightyellow;
+	width:80vw;
+	margin-top:10vh;
+	margin:auto;
+	padding:1vh, 1vw;
+}
+.container {
+	padding:0.75%;
+	width:100%;
+	margin-top:1.5vh;
+	display: grid;
+	align-items: center; 
+	grid-template-columns: 1fr 1fr;
+	column-gap: 5px;
+	font-size:120%;
+}
+.map {
+	max-width: 100%;
+	max-height:100%;
+	margin-left:2vw;
+}
+h2{
+	letter-spacing:4px;
+	font-family:"title";
+	font-size:500%;
+	margin:2vh 0;
+	
+}
+.text{
+	padding:1vh, 1vw;
+}
+footer {
+	height:10%;
+	width:100%;
+}
